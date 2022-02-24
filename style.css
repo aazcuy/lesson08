@@ -1,0 +1,74 @@
+@media only screen and (min-width:100px){
+    
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td{
+    border: 1px solid #D3D3D3 ;
+    padding: 10px;
+       
+}
+
+table{ 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:100%;
+    overflow-x: auto;
+}
+
+#collapseTable { 
+    border-collapse: collapse; 
+}
+
+thead :first-child{
+    color:black;
+    background-color:#E58F65 ;
+}
+
+.headings-1 th:nth-child(n+1):nth-child(-n+3){
+    background-color:#D05353; 
+    color:white;
+}
+
+.heading-0{
+    font-size: 1.4rem;
+}
+
+tr:nth-child(even){
+    background-color: #F9E784;
+  } 
+
+tr:nth-child(odd){
+    background-color: #FDF8D8;
+  } 
+
+
+.nov-row td:nth-child(3){
+    background-color:#D05353 ;
+    color:white;
+
+}
+
+.footer-row{
+    background-color: #E58F65;
+    font-size: 0.7rem;
+}
+}
+@media only screen and (min-width: 600px){
+
+    table{
+        max-width: 30%;
+    
+}
+
+}
+
